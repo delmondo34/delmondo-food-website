@@ -1,0 +1,136 @@
+{
+  "slug": "felix-food-1-6-single-head",
+  "name": "FELIX Food 1.6 - Single Head",
+  "shortDescription": "Başlangıç ve profesyonel kullanım için kolay kurulumlu, kullanıcı dostu tek kafalı 3D gıda yazıcı.",
+  "heroNote": "Büyük baskı hacmi, sezgisel kontrol ve hızlı devreye alma.",
+  "useCases": [
+    "Butik pastacılık ve kişiselleştirilmiş üretim",
+    "Otellerde sunum odaklı tabak tasarımları",
+    "Ar-Ge mutfaklarında reçete prototipleme"
+  ],
+  "boxContents": [
+    "1 adet FELIX Food Single Head 3D Yazıcı",
+    "1 adet Wi-Fi ve webcam destekli dokunmatik ekran modülü",
+    "1 adet gıda uyumlu paslanmaz çelik esnek tabla",
+    "1 adet silikon pişirme matı",
+    "1 adet premium nozzle seti (tüm premium uçlar)",
+    "1 adet bakım seti",
+    "1 adet temizlik fırça seti",
+    "1 adet dijital kılavuzlar ve 200 yazdırılabilir gıda formu içeren USB bellek",
+    "1 adet Simplify3D yazılım lisansı",
+    "3 adet 100 ml şırınga",
+    "3.5 mm, 2.5 mm ve 1.6 mm uçlar içeren paslanmaz çelik nozzle paketi"
+  ],
+  "image": "/images/products/felix-food-1-6-single-head/02.png",
+  "specs": [
+    {
+      "label": "Baskı Teknolojisi",
+      "value": "Hassas step motorlu hacimsel dozajlama (katmanlı üretim)"
+    },
+    {
+      "label": "Baskı Hacmi",
+      "value": "125 x 195 x 170 mm"
+    },
+    {
+      "label": "Şırınga Kapasitesi",
+      "value": "1x 70 ml (paslanmaz çelik) veya 1x 100 ml (plastik)"
+    },
+    {
+      "label": "Şırınga Tipi",
+      "value": "Temel medikal sınıf plastik veya premium paslanmaz çelik"
+    },
+    {
+      "label": "Maksimum Baskı Yüksekliği",
+      "value": "170 mm"
+    },
+    {
+      "label": "Nozzle Çapları",
+      "value": "0.5 / 1 / 2 / 3 / 4 mm premium uçlar (maks. 30 cc/dk)"
+    },
+    {
+      "label": "Baskı Hızı",
+      "value": "5 mm/s ile 50 mm/s"
+    },
+    {
+      "label": "Katman Yüksekliği",
+      "value": "0.25 mm ile 3.0 mm"
+    },
+    {
+      "label": "Viskozite Aralığı",
+      "value": "1000 Pa.s değerine kadar, 15 kg lineer kuvvet desteği"
+    },
+    {
+      "label": "Tabla Boyutu",
+      "value": "260 x 270 mm"
+    },
+    {
+      "label": "Tabla Seviyeleme",
+      "value": "Otomatik"
+    },
+    {
+      "label": "Isıtma",
+      "value": "20C - 60C (4 dakikadan kısa sürede)"
+    },
+    {
+      "label": "XYZ Çözünürlük",
+      "value": "XY: 50 mikron / Z: 25 mikron"
+    },
+    {
+      "label": "Çalışma Gürültüsü",
+      "value": "34 dB"
+    },
+    {
+      "label": "Güç Değeri",
+      "value": "250 W"
+    },
+    {
+      "label": "Güç Gereksinimi",
+      "value": "110-220V (tek faz, maks. 10 A)"
+    },
+    {
+      "label": "Bağlantı",
+      "value": "USB / Wi-Fi / Ethernet"
+    },
+    {
+      "label": "Kullanıcı Arayüzü",
+      "value": "5 inç dokunmatik ekran (10-12.5 GB dahili depolama)"
+    },
+    {
+      "label": "Kamera",
+      "value": "Entegre 2 MP"
+    },
+    {
+      "label": "Yazıcı Ölçüleri",
+      "value": "430 x 500 x 700 mm"
+    },
+    {
+      "label": "Nakliye Ölçüleri",
+      "value": "780 x 530 x 250 mm"
+    },
+    {
+      "label": "Ağırlık",
+      "value": "14 kg"
+    },
+    {
+      "label": "Çalışma Koşulları",
+      "value": "15-40C, %10-90 bağıl nem (yoğuşmasız)"
+    },
+    {
+      "label": "Yazılım",
+      "value": "Simplify3D ve Cura"
+    },
+    {
+      "label": "İşletim Sistemi Uyumu",
+      "value": "Windows, macOS, Linux"
+    },
+    {
+      "label": "3D Dosya Formatları",
+      "value": "STL, OBJ, X3D, 3MF"
+    },
+    {
+      "label": "Sertifikasyon",
+      "value": "CE"
+    }
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=qG-jHnWcZ3Q"
+}

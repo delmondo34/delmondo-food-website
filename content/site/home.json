@@ -1,0 +1,26 @@
+{
+  "heroTitle": "Gıda Üretiminde 3 Boyutlu Devrim",
+  "heroSubtitle": "Del Mondo Food; butik pastanelerden büyük üretim tesislerine kadar her ölçekteki işletme için yenilikçi FELIXprinters 3D gıda yazıcı çözümleri sunar.",
+  "heroButtonText": "Keşfet",
+  "heroButtonLink": "/products",
+  "benefits": [
+    {
+      "title": "Yüksek Tekrarlanabilirlik",
+      "description": "Standart gramaj ve şekil doğruluğu ile üretimde kalite sürekliliği sağlar."
+    },
+    {
+      "title": "Ar-Ge ve Ürün Geliştirme Hızı",
+      "description": "Yeni reçete ve form tasarımlarını kısa sürede prototipleyerek pazara çıkış süresini kısaltır."
+    },
+    {
+      "title": "Verimli Operasyon",
+      "description": "Otomasyon destekli baskı süreçleriyle iş gücünü optimize eder, üretim planlamasını kolaylaştırır."
+    }
+  ],
+  "socialProof": [
+    "Gıda güvenliği odaklı ekipman yaklaşımı",
+    "CE standartlarına uyumlu platformlar",
+    "Kurumsal teknik destek ve eğitim modeli",
+    "B2B projeler için ölçeklenebilir çözümler"
+  ]
+}
