@@ -115,6 +115,7 @@ export default defineConfig({
               { name: 'value', label: 'Değer', type: 'string', required: true },
             ],
           },
+          { name: 'videoUrl', label: 'Video URL', type: 'string' },
         ],
       },
       {
