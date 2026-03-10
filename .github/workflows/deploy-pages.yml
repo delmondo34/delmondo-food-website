@@ -34,17 +34,6 @@ jobs:
         run: |
           echo "GITHUB_PAGES=true" >> $GITHUB_ENV
 
-      - name: Tina env kontrol
-        env:
-          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          NEXT_PUBLIC_TINA_BRANCH: ${{ github.ref_name }}
-        run: |
-          echo "GITHUB_REF_NAME=$GITHUB_REF_NAME"
-          echo "NEXT_PUBLIC_TINA_BRANCH=$NEXT_PUBLIC_TINA_BRANCH"
-          node -e "console.log('HAS_CLIENT_ID=', !!process.env.NEXT_PUBLIC_TINA_CLIENT_ID, 'LEN=', (process.env.NEXT_PUBLIC_TINA_CLIENT_ID||'').length)"
-          node -e "console.log('HAS_TINA_TOKEN=', !!process.env.TINA_TOKEN, 'LEN=', (process.env.TINA_TOKEN||'').length)"
-
       - name: Statik build al
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
