@@ -39,7 +39,7 @@ jobs:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
           NEXT_PUBLIC_TINA_BRANCH: main
-        run: npm run tina:build
+        run: npm run build
 
       - name: Pages yapılandır
         uses: actions/configure-pages@v5
