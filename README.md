@@ -64,4 +64,4 @@ git push -u origin main
    - `TINA_TOKEN`
 4. `main` branch'ine push yapın.
 5. `.github/workflows/deploy-pages.yml` otomatik çalışır ve siteyi Pages'e deploy eder.
-6. Yayın adresiniz: `https://KULLANICI_ADI.github.io/REPO_ADI/`.
+6. Yayın adresiniz: `https://KULLANICI_ADI.github.io/REPO_ADI/`..
