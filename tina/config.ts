@@ -1,6 +1,11 @@
 import { defineConfig } from 'tinacms';
 
-const branch = 'main';
+const branch =
+  process.env.NEXT_PUBLIC_TINA_BRANCH ||
+  // GitHub Actions
+  process.env.GITHUB_REF_NAME ||
+  // Local / default
+  'main';
 
 export default defineConfig({
   branch,
