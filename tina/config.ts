@@ -1,6 +1,6 @@
 import { defineConfig } from 'tinacms';
 
-const branch = process.env.NEXT_PUBLIC_TINA_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || 'main';
+const branch = 'main';
 
 export default defineConfig({
   branch,
