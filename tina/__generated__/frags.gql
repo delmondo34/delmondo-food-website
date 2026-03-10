@@ -1,0 +1,62 @@
+fragment HomeParts on Home {
+  __typename
+  heroTitle
+  heroSubtitle
+  heroButtonText
+  heroButtonLink
+  benefits {
+    __typename
+    title
+    description
+  }
+  socialProof
+}
+
+fragment AboutParts on About {
+  __typename
+  intro
+  visionTitle
+  vision
+  missionTitle
+  mission
+  whyUsTitle
+  whyUs
+  coffeeConnectionTitle
+  coffeeConnection
+}
+
+fragment ContactParts on Contact {
+  __typename
+  title
+  description
+  address
+  email
+  phone
+}
+
+fragment ProductsParts on Products {
+  __typename
+  slug
+  name
+  shortDescription
+  heroNote
+  useCases
+  boxContents
+  image
+  specs {
+    __typename
+    label
+    value
+  }
+  videoUrl
+}
+
+fragment BlogParts on Blog {
+  __typename
+  title
+  excerpt
+  date
+  author
+  tags
+  body
+}
