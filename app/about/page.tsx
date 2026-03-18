@@ -119,8 +119,8 @@ export default function AboutPage() {
 
         <div className="grid gap-6 md:grid-cols-2">
           {/* Vision */}
-          <AnimateOnScroll variant="fade-left" delay={0}>
-            <article className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-elevated">
+          <AnimateOnScroll variant="fade-left" delay={0} className="h-full">
+            <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-elevated">
               <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary to-primary-dark" />
               <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 transition-colors duration-300 group-hover:bg-primary/20">
                 <svg className="h-7 w-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -134,8 +134,8 @@ export default function AboutPage() {
           </AnimateOnScroll>
 
           {/* Mission */}
-          <AnimateOnScroll variant="fade-right" delay={120}>
-            <article className="group relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-elevated">
+          <AnimateOnScroll variant="fade-right" delay={120} className="h-full">
+            <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-8 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-elevated">
               <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary to-primary-dark" />
               <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 transition-colors duration-300 group-hover:bg-primary/20">
                 <svg className="h-7 w-7 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
