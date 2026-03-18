@@ -72,7 +72,7 @@ jobs:
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          NEXT_PUBLIC_TINA_BRANCH: ${{ github.ref_name }}
+          NEXT_PUBLIC_TINA_BRANCH: main
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -25,7 +25,5 @@ jobs:
         env:
           NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-          # On pull_request events GitHub uses refs like "1/merge" which don't exist on TinaCloud.
-          # Use the PR head branch for same-repo PRs; otherwise fall back to "main".
-          NEXT_PUBLIC_TINA_BRANCH: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && github.event.pull_request.head.ref || 'main' }}
+          NEXT_PUBLIC_TINA_BRANCH: main
         run: npm run tina:build
