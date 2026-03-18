@@ -30,6 +30,7 @@ export type HomeContent = {
 
 export type AboutContent = {
   intro: string;
+  aboutParagraphs: string[];
   visionTitle: string;
   vision: string;
   missionTitle: string;

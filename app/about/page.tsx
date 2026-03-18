@@ -85,6 +85,25 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ─── ABOUT TEXT ─── */}
+      <section className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-8">
+        <AnimateOnScroll variant="fade-up">
+          <div className="max-w-3xl">
+            <p className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-primary">
+              Hakkımızda
+            </p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-ink md:text-4xl">
+              Del Mondo Food
+            </h2>
+            <div className="mt-6 space-y-6 text-sm leading-7 text-steel">
+              {about.aboutParagraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </AnimateOnScroll>
+      </section>
+
       {/* ─── VISION & MISSION ─── */}
       <section className="mx-auto w-full max-w-7xl px-6 py-20 lg:px-8">
         <AnimateOnScroll variant="fade-up">
